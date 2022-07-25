@@ -1,0 +1,54 @@
+#header{
+    background-color: #f70fad;
+    color: white;
+}
+#logo{
+    font-size: 2rem;
+    margin-top: 5px;
+}
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu li{
+    display: inline-block;
+}
+#menu li a{
+    color: aliceblue;
+    padding: 15px 10px;
+    display: block;
+    text-decoration: none;
+    
+}
+#menu li a:hover{
+    background: hsl(328, 91%, 49%);
+
+}
+#banner{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)), url('./images/elear1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+   height: 350px;
+    color: aliceblue;
+}
+.banner.title h1{
+    background: rgba(255,255,255,0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+
+    
+}
+.linear-color{
+    display: flex;
+justify-content: center;
+    height: 700px;
+   align-items: center;
+    background: linear-gradient(25deg, #32a852 50%,#cc33ff 30%);
+    color: cornsilk;
+}
+
